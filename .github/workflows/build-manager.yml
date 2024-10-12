@@ -13,7 +13,8 @@ on:
     paths:
       - 'manager/**'
   workflow_call:
-
+  
+jobs:
   build-ksud:
     needs: build-lkm
     strategy:
